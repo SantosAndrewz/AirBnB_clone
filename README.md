@@ -19,7 +19,7 @@ The command interpreter refers to a program that enables the user to interact wi
 - The showing of the command prompt (hbnb) indicates that the command interpreter can now accept commands.
 
 #How to use the command interpreter.
--While the command interpreter is still accepting commands, the user can enter commnands to manage the ojects within the AirBnB project. These commands include: create, show, destroy, all, update.
+-While the command interpreter is still accepting commands, the user can enter commands to manage the objects within the AirBnB project. These commands include: create, show, destroy, all, and update.
 
 # Examples
 
