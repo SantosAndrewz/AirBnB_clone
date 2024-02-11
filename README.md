@@ -15,8 +15,8 @@ The command interpreter refers to a program that enables the user to interact wi
 #How to start the command Interpreter.
 - Enter the repository containing the command interpreter.
 - Enter the directory having the file of the command interpreter.
-- Using "python console.py" command run the command interpreter's script.
-- The showing of the command prompt indicates that the command interpreter can now accept commands.
+- Using "./console.py" command run the command interpreter's script.
+- The showing of the command prompt (hbnb) indicates that the command interpreter can now accept commands.
 
 #How to use the command interpreter.
 -While the command interpreter is still accepting commands, the use can enter commnands to manage the ojects within the AirBnB project. These commands include: create, show, destroy, all, update.
@@ -24,7 +24,7 @@ The command interpreter refers to a program that enables the user to interact wi
 # Examples
 
 #To create a new user.
-$ create user
+(hbnb) create user
 
 #To update the name of the Visitor.
-$ update Visitor "John" name "Joseph"
+(hbnb) update Visitor "John" name "Joseph"

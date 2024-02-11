@@ -4,6 +4,7 @@ import models
 from uuid import uuid4
 from datetime import datetime
 
+
 class BaseModel:
 
     def __init__(self, *args, **kwargs):
@@ -19,7 +20,7 @@ class BaseModel:
                     self.__dict__[k] = v
         else:
             models.storage.new(self)
-    
+
     def save(self):
         self.updated_at = datetime.today()
         models.storage.save()
